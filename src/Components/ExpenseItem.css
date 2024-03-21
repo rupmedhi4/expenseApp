@@ -1,0 +1,126 @@
+
+.expense-item {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 12px;
+  background-color: #4b4b4b;
+  height: 5rem;
+ 
+}
+
+.expense-item_description { 
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.expense-item h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+
+.expense-item__price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+  .expense-item__description h2 {
+    font-size: 1.25rem;
+  }
+
+  .expense-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+.expenseTitle {
+margin-right: 50rem;
+}
+.expense-amount{
+  margin-right: 10px;
+  border: 2px solid white;
+  padding: 12px 20px 12px 20px;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(9, 9, 101);
+}
+.expense-date{
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+ 
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-color: #3d0707;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  max-width: 6rem;
+  border: 1px solid white;
+  box-shadow: 0 0 1.5px 1.5px #bab2b2;
+  padding: 0  15px 0 15px;
+  
+}
+
+.parent-div{
+  background-color:#3d0707;
+  width: 40rem;
+  margin-left: 26%;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.expense-item-description{
+  display: flex;
+ 
+}
+
+/* ExpenseForm */
+.form-group{
+  display: flex;
+  
+}
+
+.form-group-row{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.form-group-row input{
+  padding: 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.btn{
+ padding: 0.5rem;
+ color: white;
+ font-weight: bold;
+ margin-left: 16rem;
+  background-color: blue;
+}
+
+/* chat.js */
+.month{
+  color: white;
+  margin-right: 1rem;
+}
+.chartBar{
+ 
+  background-color: #fff;
+  width: 10%;
+}
